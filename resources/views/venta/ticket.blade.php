@@ -66,9 +66,6 @@
 
 <body>
     <div class="ticket">
-        <div class="logo">
-            <img src="{{ asset('img/logo.png') }}" alt="Logo de Mi Negocio">
-        </div>
         <div class="business-info">
             <h3>{{$company->nombre}}</h3>
             <p>{{$company->direccion}}</p>
